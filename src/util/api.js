@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === 'development'
-    ? 'http://localhost:8080/api'
+    ? 'https://peaceful-scrubland-77930.herokuapp.com/api'
     : `https://${window.location.hostname}/api`;
 
 const methods = {
